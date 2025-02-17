@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Kumar - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    
+    <!-- Header --> 
+    <header class="bg-teal-800 text-yellow-300 py-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <div class="flex items-center">
+                <a href="/img/logo.png" target="_blank">
+                    <img src="/img/logo.png" alt="Logo" class="w-16 h-16 rounded-full transition-transform duration-500 hover:rotate-12">
+                </a>
+                <h1 class="ml-3 text-xl font-bold">Sanjay Kumar</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#certifications" class="hover:text-gray-300">Certifications</a></li>
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Home Section -->
+    <section id="home" class="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-800 p-6 space-x-6">
+        <img src="/img/PXL_20221109_111244209.PORTRAIT.jpg" 
+             alt="sanjay img" 
+             class="w-72 h-auto rounded-lg shadow-lg transform transition duration-500 hover:scale-105"/>
+        
+        <div class="text-center md:text-left">
+            <h1 class="text-4xl font-bold text-yellow-300">Welcome to My Portfolio</h1>
+            <p class="text-lg text-gray-400 mt-2">I am Sanjay Kumar, A Full Stack Developer</p>
+            
+            <div class="flex justify-center md:justify-start space-x-4 mt-4">
+                <a href="https://www.linkedin.com/in/sanjay-kumar-7689531b5/" class="transition transform hover:scale-125">
+                    <img src="/img/linkedin.jpg" alt="linkedin" class="w-10 h-10 rounded-full shadow-lg transition duration-300 hover:rotate-12"/>
+                </a>
+                <a href="https://github.com/" class="transition transform hover:scale-125">
+                    <img src="/img/github.png" alt="git-hub" class="w-10 h-10 rounded-full shadow-lg transition duration-300 hover:rotate-12"/>
+                </a>
+                <a href="https://www.instagram.com/" class="transition transform hover:scale-125">
+                    <img src="/img/insta.jpg" alt="instagram" class="w-10 h-10 rounded-full shadow-lg transition duration-300 hover:rotate-12"/>
+                </a>
+                <a href="mailto:sanjaykumarr99009@gmail.com" class="transition transform hover:scale-125">
+                    <img src="/img/mail.webp" alt="Email" class="w-10 h-10 rounded-full shadow-lg transition duration-300 hover:rotate-12"/>
+                </a>
+            </div>
+            
+            <a href="https://drive.google.com/file/d/12d5i6tFUbmjJ2FMou4FVeJpF6LgdV1NO/view?usp=sharing" 
+               class="mt-6 inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-teal-600">
+                Download Resume
+            </a>
+        </div>
+    </section>
+    
+
+         <!-- Projects Section -->
+         <section id="projects" class="py-16 bg-teal-900 text-yellow-300">
+            <h2 class="text-center text-3xl font-bold mb-6">Projects</h2>
+            <div class="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
+                <div class="bg-teal-800 p-6 shadow-lg rounded-lg">
+                    <img src="/img/Predicting Zika Virus using machine learing..webp" alt="Project 1" class="w-full rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Predicting Zika Virus using machine learning</h3>
+                    <p class="text-yellow-200"> <ol>
+                        <li>Automated Zika virus data management with a secure, error-free system.</li>
+                        <li>Developed ML models for outbreak prediction using historical and real-time data.</li>
+                        <li>Enhanced data storage, access, and visualization for efficient decision-making.</li>
+                        <br>
+                        <li><strong>Skills:-</strong> Python | Machine Learning | Data Analytics | Automation | Data Security </li>
+                    </ol></p>
+                </div>
+                <div class="bg-teal-800 p-6 shadow-lg rounded-lg">
+                    <img src="/img/Auto-Update Data Visualization with Python and AWS.png " alt="Project 2" class="w-full rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Auto-Update Data Visualization with Python and AWS</h3>
+                    <p class="text-yellow-200"><ol>
+                        <li>Designed real-time dashboards using Python (Plotly Dash, Streamlit) and AWS services (S3, DynamoDB, Kinesis).</li>
+                        <li>Automated data pipelines with AWS Lambda and EC2 for seamless integration and transformation.</li>
+                        <li>Implemented real-time data refresh via WebSockets, EventBridge, and API Gateway.</li>
+                        <li>Deployed scalable dashboards using AWS Elastic Beanstalk and Amplify, optimizing performance with auto-scaling and CloudWatch.</li>
+                        <br>
+                        <li><strong>Skills:-</strong> Python | AWS (S3, Lambda, DynamoDB, Kinesis, API Gateway, CloudWatch) | Plotly Dash | Streamlit | Real-time Data Visualization</li>
+                    </ol></p>
+                </div>
+    
+                <div class="bg-teal-800 p-6 shadow-lg rounded-lg">
+                    <img src="/img/shop-in.jpg" alt="Project 3" class="w-full rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Shop-in: E-Commerce</h3>
+                    <p class="text-yellow-200"><ol>
+                        <li>Developed a responsive, scalable e-commerce platform with product search, secure payment integration, and personalized recommendations.</li>
+                        <li>Built an admin dashboard for product and order management with real-time inventory tracking.</li>
+                        <li>Deployed using AWS with robust backend architecture (Node.js/Django) and database support (MySQL/MongoDB).</li>
+                        <li>Optimized for SEO and integrated marketing tools to enhance visibility and sales.</li>
+                        <br>
+                        <li><strong>Skills:-</strong> React.js | Node.js/Django | AWS | Payment Integration | E-commerce Development | SEO Optimization</li>
+                    </ol></p>
+                </div>
+    
+                <div class="bg-teal-800 p-6 shadow-lg rounded-lg">
+                    <img src="/img/inventory-management-system-.png" alt="Project 4" class="w-full rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Inventory Management System</h3>
+                    <p class="text-yellow-200">An inventory management system helps businesses track products, stock levels, and orders efficiently. Key features include user authentication, product management, real-time stock tracking, and order handling with low-stock alerts. Built using React (front-end), Node.js/Express (back-end), and MySQL/MongoDB (database), the system is responsive and supports CRUD operations and RESTful APIs.
+                    <ol>
+                        <li>User authentication (admin and user roles).</li>
+                        <li>Product management (add, edit, delete products).</li>
+                        <li>Real-time stock tracking.</li>
+                        <li>Order handling with low-stock alerts.</li>
+                        <br>
+                        <li><strong>Skills:-</strong> React | Node.js | Express | MySQL or MongoDB </li>
+                    </ol></p>
+                </div>
+    
+                <div class="bg-teal-800 p-6 shadow-lg rounded-lg">
+                    <img src="/img/weather_forecast_week.jpg" alt="Project 5" class="w-full rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Weather Forecast Application</h3>
+                    <p class="text-yellow-200">🌦️ A simple and responsive Weather Forecast App that provides real-time weather updates and a 5-day forecast using the OpenWeather API. Built with JavaScript and Tailwind CSS, this project allows users to search by city name or use their current location for accurate weather data.</p>
+                    <ol>
+                        🚀 Features:
+                        <li>Search by City or Location – Get weather updates by entering a city name or using your current GPS location.</li> 
+                        <li>Real-Time Weather Data – Displays temperature, humidity, wind speed, and conditions with dynamic icons.</li>
+                        <li>5-Day Forecast – View upcoming weather trends with daily temperature and condition details.</li>
+                        <li>Responsive UI – Designed with Tailwind CSS for a clean and user-friendly experience.</li>
+                        📂 Project Overview
+                        <li>weather_app.html – The main UI layout, including input fields, buttons, and display sections.</li>
+                        <li>app.js – Fetches and processes weather data using the OpenWeather API and updates the UI dynamically.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="py-16 bg-gray-900 text-white text-center">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <div class="container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6">
+                
+                <div class="flex flex-col items-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="#374151" stroke-width="10" fill="none"/>
+                            <circle cx="50" cy="50" r="45" stroke="#fbbf24" stroke-width="10" fill="none" stroke-dasharray="283" stroke-dashoffset="22" stroke-linecap="round" class="progress-circle"/>
+                        </svg>
+                        <span class="absolute inset-0 flex items-center justify-center text-lg font-semibold">92%</span>
+                    </div>
+                    <h3 class="mt-4 text-lg font-medium">HTML</h3>
+                </div>
+        
+                <div class="flex flex-col items-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="#374151" stroke-width="10" fill="none"/>
+                            <circle cx="50" cy="50" r="45" stroke="#3b82f6" stroke-width="10" fill="none" stroke-dasharray="283" stroke-dashoffset="31" stroke-linecap="round" class="progress-circle"/>
+                        </svg>
+                        <span class="absolute inset-0 flex items-center justify-center text-lg font-semibold">89%</span>
+                    </div>
+                    <h3 class="mt-4 text-lg font-medium">CSS</h3>
+                </div>
+        
+                <div class="flex flex-col items-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="#374151" stroke-width="10" fill="none"/>
+                            <circle cx="50" cy="50" r="45" stroke="#ef4444" stroke-width="10" fill="none" stroke-dasharray="283" stroke-dashoffset="48" stroke-linecap="round" class="progress-circle"/>
+                        </svg>
+                        <span class="absolute inset-0 flex items-center justify-center text-lg font-semibold">83%</span>
+                    </div>
+                    <h3 class="mt-4 text-lg font-medium">JavaScript</h3>
+                </div>
+                
+                <div class="flex flex-col items-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="#374151" stroke-width="10" fill="none"/>
+                            <circle cx="50" cy="50" r="45" stroke="#10b981" stroke-width="10" fill="none" stroke-dasharray="283" stroke-dashoffset="40" stroke-linecap="round" class="progress-circle"/>
+                        </svg>
+                        <span class="absolute inset-0 flex items-center justify-center text-lg font-semibold">86%</span>
+                    </div>
+                    <h3 class="mt-4 text-lg font-medium">Python</h3>
+                </div>
+
+
+                <div class="flex flex-col items-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="#374151" stroke-width="10" fill="none"/>
+                            <circle cx="50" cy="50" r="45" stroke="#10b981" stroke-width="10" fill="none" stroke-dasharray="283" stroke-dashoffset="40" stroke-linecap="round" class="progress-circle"/>
+                        </svg>
+                        <span class="absolute inset-0 flex items-center justify-center text-lg font-semibold">74%</span>
+                    </div>
+                    <h3 class="mt-4 text-lg font-medium">AWS </h3>
+                </div>
+
+
+                <div class="flex flex-col items-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="#374151" stroke-width="10" fill="none"/>
+                            <circle cx="50" cy="50" r="45" stroke="#ef4444" stroke-width="10" fill="none" stroke-dasharray="283" stroke-dashoffset="48" stroke-linecap="round" class="progress-circle"/>
+                        </svg>
+                        <span class="absolute inset-0 flex items-center justify-center text-lg font-semibold">78%</span>
+                    </div>
+                    <h3 class="mt-4 text-lg font-medium">DSA</h3>
+                </div>
+                
+            </div>
+        </section>
+        
+        <style>
+            .progress-circle {
+                transform: rotate(-90deg);
+                transform-origin: 50% 50%;
+                transition: stroke-dashoffset 1.5s ease-in-out;
+            }
+        </style>
+        
+
+
+        <!-- Certifications Section with Side Scrolling -->
+    <section id="certifications" class="py-16">
+        <h2 class="text-center text-3xl font-bold mb-6">Certifications</h2>
+        <div class="overflow-x-auto snap-x flex space-x-4 px-4">
+            <div class="snap-center flex-shrink-0 w-64">
+                <img src="/img/aws.png" class="rounded-lg shadow-md w-full"/>
+            </div>
+            <div class="snap-center flex-shrink-0 w-64">
+                <img src="/img/iccise.png" class="rounded-lg shadow-md w-full"/>
+            </div>
+            <div class="snap-center flex-shrink-0 w-64">
+                <img src="/img/oops.png" class="rounded-lg shadow-md w-full"/>
+            </div>
+            <div class="snap-center flex-shrink-0 w-64">
+                <img src="/img/open cv.png " class="rounded-lg shadow-md w-full"/>
+            </div>
+            <div class="snap-center flex-shrink-0 w-64">
+                <img src="/img/python-1.png" class="rounded-lg shadow-md w-full"/>
+            </div>
+            <div class="snap-center flex-shrink-0 w-64">
+                <img src="/img/python-2.png" class="rounded-lg shadow-md w-full"/>
+            </div>
+    </section>
+    
+
+    <!-- About Section -->
+<section id="about" class="py-16 bg-blue-900 floating" data-aos="fade-up">
+    <h2 class="text-center text-3xl font-bold mb-6 text-teal-300">About Me</h2>
+    <div class="container mx-auto text-center max-w-3xl">
+        <p class="text-lg text-gray-200">
+            Hi, I'm <span class="text-yellow-300 font-semibold">Sanjay Kumar</span>, a passionate and driven Computer Science and Engineering graduate. I specialize in <span class="text-orange-300">full-stack web development</span>, <span class="text-green-300">cloud computing</span>, and <span class="text-purple-300">Python programming</span>. I am continuously learning new technologies to solve real-world problems.
+        </p>
+    </div>
+</section>
+
+
+   <!-- Contact Section -->
+<section id="contact" class="py-16 text-center bg-gray-900 text-gray-100" data-aos="fade-up">
+    <h2 class="text-3xl font-bold mb-6 text-teal-400">Contact Me</h2>
+    <form class="max-w-lg mx-auto space-y-4">
+        <input type="text" placeholder="Your Name" 
+            class="w-full p-3 border border-teal-500 rounded-lg bg-gray-800 text-white focus:ring-2 focus:ring-teal-400 transition duration-300 ease-in-out transform hover:scale-105">
+        
+        <input type="email" placeholder="Your Email" 
+            class="w-full p-3 border border-teal-500 rounded-lg bg-gray-800 text-white focus:ring-2 focus:ring-teal-400 transition duration-300 ease-in-out transform hover:scale-105">
+        
+        <textarea placeholder="Your Message" rows="4"
+            class="w-full p-3 border border-teal-500 rounded-lg bg-gray-800 text-white focus:ring-2 focus:ring-teal-400 transition duration-300 ease-in-out transform hover:scale-105"></textarea>
+        
+        <button type="submit" 
+            class="bg-teal-500 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-110 hover:bg-teal-400">
+            Send Message
+        </button>
+    </form>
+</section>
+
+    
+    <!-- Footer -->
+    <footer class="bg-teal-800 text-yellow-300 text-center py-4">
+        <p>@2024 Sanjay Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>
